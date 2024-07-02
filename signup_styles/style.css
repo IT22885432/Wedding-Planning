@@ -1,0 +1,101 @@
+.message{
+	
+  width: 30%;
+  margin: 0px auto;
+  background-color:#ffb3b3;
+	padding:10px;
+ text-align:center;
+  color:#b30000;
+  font-family:Arial;
+  border-radius: 10px 10px 10px 10px;
+
+	
+}
+
+
+
+.SignForm{
+	
+background-image: url("../img/signup.jpg");
+	width:100%;
+	min-height:900px;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top:60px;
+  text-align:center;
+  color:white;
+  font-family:Arial;
+  
+}
+
+.scontainer{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:transparent;
+	border:2px solid rgba(255,255,255,0.5);
+	backdrop-filter:blur(20px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	width:600px;
+	margin-left:450px;
+}
+
+
+.formGroup{
+	
+	display:flex;
+	justify-content:center;
+	 font-family:Arial;
+}
+
+.formGroup input,textarea{
+	
+	border:none;
+	width:80%;
+	padding:10px;
+	margin-bottom:20px;
+	background-color:transparent;
+	border-bottom:2px solid white;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	 
+	
+}
+
+::placeholder{
+	
+	color:white;
+	
+}
+
+
+input:focus,textarea:focus{
+	
+	outline:none;
+	border-bottom: 2px solid #008fb3;
+	font-size:17px;
+	font-weight:bold;
+	
+}
+
+.signupbtn{
+	
+	padding:20px;
+	outline:none;
+	width:200px;
+	border-radius:30px;
+	border-style:none;
+	background-color:#008fb3;
+	color:whitesmoke;
+	font-weight:600;
+	font-size:20px;
+}
+.signupbtn:hover{
+	
+	background-color:#006080;
+	
+}
